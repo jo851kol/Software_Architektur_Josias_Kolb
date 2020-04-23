@@ -1,1 +1,1 @@
-# Software_Architektur_Josias_Kolb
+# Aufgabe 1

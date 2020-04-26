@@ -83,3 +83,34 @@ Kunde/Mitarbeiter empfängt Nachricht | Nachricht wird in Postfach angezeigt
 Kunde/Mitarbeiter ruft empfangene Nachricht auf | Empfangene Nachricht wird angezeigt
 
 5. Notieren Sie die Nutzungsanforderungen.
+
+Kundenverwaltung:
+
+Kunde suchen | Der Nutzer muss die Daten des Kunden für die Suche eingeben können.
+
+Kundendaten verändern | Der Nutzer muss die vorhandenen Kundendaten verändern können
+
+Kundendaten speichern | Der Nutzer muss die Kundendaten mithilfe eines Buttons persistieren können
+
+Kundenregistrierung:
+
+Kunde gibt Kundendaten ein | Kunde muss im System seine Daten eingeben können.
+
+Kunde betätigt den registrier-Button | Registrier-Button muss vorhanden sein und den Kunden im System speichern
+
+Newsabruf:
+
+Kunde loggt sich ein | Kunde muss seine Login-Daten am System eingeben können.
+
+Kunde betätigt News-Button | News-Button muss vorhanden sein und die News-Seite aufrufen.
+
+Nachrichtensystem:
+
+Kunde/Mitarbeiter loggt sich ein | Kunde/Mitarbeiter muss am System seine Login-Daten angeben können.
+
+Kunde/Mitarbeiter sendet Nachricht an validen Empfänger | Kunde/Mitarbeiter muss Text in Form einer Nachricht am System eingeben und über einen Button versenden können.
+
+Kunde/Mitarbeiter empfängt Nachricht | Kunde/Mitarbeiter muss Nachricht im Postfach angezeigt bekommen.
+
+Kunde/Mitarbeiter ruft empfangene Nachricht auf | Ein Klick auf die empfangene Nachricht muss diese aufrufen und die korrekte Nachricht ausgeben.
+

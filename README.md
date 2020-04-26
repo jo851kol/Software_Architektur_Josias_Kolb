@@ -119,16 +119,38 @@ Nach dem Sie die Anforderungen erhoben haben erstellen Sie exemplarisch für die
 
 Gewählte Kernaufgaben: Kundenregistrierung und Kundenverwaltung/Bearbeitung
 
-Mockups zur Kundenverwaltung/Bearbeitung: 
+1. Mockups zur Kundenverwaltung/Bearbeitung: 
 
-1. Search Customer
+Search Customer
 ![Mockup_1_Search_Customer](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Wireframe_1_Search_Customer.png)
 
-2. Edit Customer
+Edit Customer
 ![Mockup_2_Edit_Customer](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Wireframe_2_Edit_Customer.png)
 
 Mockup zur Kundenregistrierung:
 
-1. Register
+Register
 
 ![Mockup_1_Register](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Wireframe_3_Register.png)
+
+2. Wie kann eine SRS gegliedert sein?
+
+* Einleitung (Projektbeschreibung/Zweck, Ziel)
+* Beschreibung des zu entwickelnden Systems
+  * Nutzergruppen (Stakeholder)
+  * Kernaufgaben
+  * Teilaufgaben
+  * Nutzungsanforderungen
+  * Systemanforderungen (Blackbox)
+    * Mockups/Kontextdiagramme für statisches und dynamisches Verhalten
+    * Schnittstellen (Daten/Technische/UI)
+    * Laufzeitumgebung
+    * Sonstige Anforderungen an das Produkt
+      * Lizenzmanagement, Update/Upgrade
+      * Gesetzliche Vorgaben
+      
+      
+ 3. Erstellen Sie eine komplette SRS.
+ 
+
+  

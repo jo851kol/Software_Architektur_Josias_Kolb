@@ -122,9 +122,11 @@ Gewählte Kernaufgaben: Kundenregistrierung und Kundenverwaltung/Bearbeitung
 1. Mockups zur Kundenverwaltung/Bearbeitung: 
 
 Search Customer
+
 ![Mockup_1_Search_Customer](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Wireframe_1_Search_Customer.png)
 
 Edit Customer
+
 ![Mockup_2_Edit_Customer](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Wireframe_2_Edit_Customer.png)
 
 Mockup zur Kundenregistrierung:
@@ -165,6 +167,7 @@ Systemanforderungen:
 Statisches Aussehen -> siehe 3.1 Mockups
 
 Dynamisches Verhalten:
+
 ![Edit_Customer_Dynamic_Behaviour(https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Edit_Customer_dynamisches_Verhalten.png)
 
 1 Durch Klick auf das Home-Symbol gelangt man zurück auf die Homepage der Nicht Modernen Firma, welche allgemeine, unternehmensinterne Informationen anzeigt.

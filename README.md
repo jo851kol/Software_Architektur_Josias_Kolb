@@ -52,10 +52,34 @@ Eingeloggt in Mailsystem |Kunde/Mitarbeiter sendet Nachricht | Nachricht wurde v
 
 4. Leiten Sie die Teilaufgaben ab.
 
-Kundenabruf:
+Kundenverwaltung:
 
-Kunde wird gesucht | Korrekte Kundendaten werden zurückgegeben
+Kunde suchen | Korrekte Kundendaten werden zurückgegeben
 
-Kundendaten werden verändert | Kundendaten wurden persistiert
+Kundendaten verändern | Kundendaten wurden verändert
+
+Kundendaten speichern | Veränderte Kundendaten wurden gespeichert
+
+Kundenregistrierung:
+
+Kunde gibt Kundendaten ein | Kundendaten wurden in der Registrierungsmaske erfasst
+
+Kunde betätigt den registrier-Button | Kunde wurde registriert und in Datenbank gespeichert sofern Kundendaten valide
+
+Newsabruf:
+
+Kunde loggt sich ein | Kunde ist eingeloggt
+
+Kunde betätigt News-Button | Kunde wurde auf News-Seite weitergeleitet
+
+Nachrichtensystem:
+
+Kunde/Mitarbeiter loggt sich ein | Kunde/Mitarbeiter ist eingeloggt
+
+Kunde/Mitarbeiter sendet Nachricht an validen Empfänger | Nachricht wurde gesendet
+
+Kunde/Mitarbeiter empfängt Nachricht | Nachricht wird in Postfach angezeigt
+
+Kunde/Mitarbeiter ruft empfangene Nachricht auf | Empfangene Nachricht wird angezeigt
 
 5. Notieren Sie die Nutzungsanforderungen.

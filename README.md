@@ -120,3 +120,4 @@ Nach dem Sie die Anforderungen erhoben haben erstellen Sie exemplarisch für die
 Gewählte Kernaufgaben: Kundenregistrierung und Kundenverwaltung/Bearbeitung
 
 Mockups zur Kundenverwaltung/Bearbeitung: 
+![Mockup_1_Search_Customer](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Wireframe_1_Search_Customer.png)

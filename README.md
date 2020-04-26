@@ -37,6 +37,7 @@ Abonnenten/Kunden, Mitarbeiter
 2. identifizieren Sie die Erfordernisse
 
 Für Mitarbeiter: Digitale Verwaltungsmöglichkeit der Kunden in DB, Nachrichtensystem zwischen Kunden u. Mitarbeiter
+
 Für Kunden: Digitale Registrierungsmöglichkeit + online Abrufbarkeit der News
 
 3. Erheben Sie die Kernaufgaben.
@@ -50,6 +51,7 @@ Kunde ist eingeloggt | Kunde ruft News ab | Kunde bekommt News angezeigt
 Eingeloggt in Mailsystem |Kunde/Mitarbeiter sendet Nachricht | Nachricht wurde versendet
 
 4. Leiten Sie die Teilaufgaben ab.
+
 Kundenabruf:
 
 Kunde wird gesucht | Korrekte Kundendaten werden zurückgegeben

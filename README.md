@@ -114,3 +114,9 @@ Kunde/Mitarbeiter empfängt Nachricht | Kunde/Mitarbeiter muss Nachricht im Post
 
 Kunde/Mitarbeiter ruft empfangene Nachricht auf | Ein Klick auf die empfangene Nachricht muss diese aufrufen und die korrekte Nachricht ausgeben.
 
+# Aufgabe 3
+Nach dem Sie die Anforderungen erhoben haben erstellen Sie exemplarisch für die wichtigsten beiden Kernaufgaben Mockups.
+
+Gewählte Kernaufgaben: Kundenregistrierung und Kundenverwaltung/Bearbeitung
+
+Mockups zur Kundenverwaltung/Bearbeitung: 

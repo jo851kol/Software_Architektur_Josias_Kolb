@@ -192,7 +192,7 @@ Schnittstellen:
   
 Laufzeitumgebung: 
 
-Die einzigen nötigen Umgebungsanforderungen sollen ein Browser und eine intakte Internetverbindung sein.
+Die einzigen nötigen Laufzeitumgebungsanforderungen sollen ein Browser und eine intakte Internetverbindung sein.
 
 Sonstige Anforderungen an das Produkt:
 

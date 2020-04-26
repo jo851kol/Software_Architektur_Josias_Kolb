@@ -174,4 +174,28 @@ Dynamisches Verhalten:
 3 Durch Anwählen von einem der Inputfelder kann man die Informationen des aktuell ausgewählten Kunden bearbeiten.
 
 4 Durch Betätigung des Save-Buttons werden die vorgenommenen Änderungen gespeichert und in der Datenbank persistiert, sofern sie valide sind.
+
+Schnittstellen:
+* Benutzerschnittstelle über die Website (Für Mitarbeiter u. Kunden) 
+
+ -> Sicherheitsmaßnahmen gegen Scripting-Attacks, Authentifizierung vor Datenzugriff sowie Verifizierung vor Kundenbearbeitung (Mitarbeiter)
+ 
+  -> Performanz: Schnittstelle muss mindestens 500 000 Benutzer gleichzeitig ohne Performancebeeinträchtigungen bewältigen können
   
+* Datenschnittstelle zwischen Anwendung und Kundendatenbank 
+
+ -> Verschlüsselte Speicherung der Kundeninformationen, mind. 1000 TX/S
+ 
+ * System-System-Schnittstelle zwischen Website und Nachrischtensystem, da es möglich sein soll die Nachrichten über die Website abzurufen
+ 
+ -> IMAP-Behaviour, gelesene Nachrichten werden auch bei späterem reinem Zugriff über das Nachrichtensystem als gelesen markiert
+  
+Laufzeitumgebung: 
+
+Die einzigen nötigen Umgebungsanforderungen sollen ein Browser und eine intakte Internetverbindung sein.
+
+Sonstige Anforderungen an das Produkt:
+
+Gesetzliche Vorgaben -> Kunde muss innerhalb einer gesetzten Frist nach Kündigung des Abonnements aus der Datenbank gelöscht werden
+
+Lizenzmanagement -> Das Nachrichtensystem sowie die Datenbank werden über Lizenzen für die nächsten 4 Jahre erworben

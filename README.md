@@ -152,5 +152,19 @@ Register
       
  3. Erstellen Sie eine komplette SRS.
  
+Einleitung:
+
+Aufgrund der deutlich schnelleren Zugriffszeiten und der wesentlich komfortableren und ressourcenschonenderen Verwaltungsmöglichkeiten digitaler Systeme hat sich die Nicht Moderne Firma für eine Digitalisierung ihres Systems entschieden. Im Vordergrund steht dabei die digitale Verwaltung der Kundensätze sowie eine digitale Registrierungsmöglichkeit für die Kunden. Zusätzlich soll ein digitales Nachrichtensystem zur Kommunikation zwischen Mitarbeitern und Kunden eingeführt werden und jeder Kunde soll seine News auch online über seinen digitalen Account abzurufen können.
+
+Beschreibung des entwickelten Systems:
+
+Siehe Aufgabe 2
+
+Systemanforderungen:
+
+Statisches Aussehen -> siehe 3.1 Mockups
+
+Dynamisches Verhalten:
+
 
   

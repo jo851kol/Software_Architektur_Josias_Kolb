@@ -41,6 +41,7 @@ Für Mitarbeiter: Digitale Verwaltungsmöglichkeit der Kunden in DB, Nachrichten
 Für Kunden: Digitale Registrierungsmöglichkeit + online Abrufbarkeit der News
 
 3. Erheben Sie die Kernaufgaben.
+
 |Vorbedingung|Kernaufgabe|Nachbedingung|
 |:--|:--|:--|
 |Kunden sind registriert | Mitarbeiter kann Kunden digital abrufen/verändern/löschen | Veränderungen werden wieder in DB persistiert|

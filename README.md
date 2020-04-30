@@ -46,7 +46,7 @@ Für Kunden: Digitale Registrierungsmöglichkeit + online Abrufbarkeit der News
 |:--|:--|:--|
 |Kunden sind registriert | Mitarbeiter kann Kunden digital abrufen/verändern/löschen | Veränderungen werden wieder in DB persistiert|
 
-Kunde ist nicht registriert | Kunde registriert sich | Kunde ist registriert
+|Kunde ist nicht registriert | Kunde registriert sich | Kunde ist registriert|
 
 Kunde ist eingeloggt | Kunde ruft News ab | Kunde bekommt News angezeigt
 

@@ -1,3 +1,4 @@
+## Aufgabenblatt 1
 # Aufgabe 1
 
 1. Wie beschreibt man eine technische Schnittstelle vollständig?
@@ -26,7 +27,7 @@
 
 5. Wie nennt man Systemanforderungen noch? Wie unterscheiden sie sich von Stakeholder-Anforderungen?
 
-* SRS
+* SRS-> Systemanforderungen sind Teilmenge von SRS
 * Stakeholderanforderungen beschreiben die individuellen Anforderungen der Stakeholder an das System, während die Systemanforderungen das System aus technischer Sicht beschreiben (z.B. aus Black-Box-Sicht)
 
 # Aufgabe 2
@@ -44,76 +45,68 @@ Für Kunden: Digitale Registrierungsmöglichkeit + online Abrufbarkeit der News
 
 |Vorbedingung|Kernaufgabe|Nachbedingung|
 |:--|:--|:--|
-|Kunden sind registriert | Mitarbeiter kann Kunden digital abrufen/verändern/löschen | Veränderungen werden wieder in DB persistiert|
+|Kunden sind registriert | Mitarbeiter kann Kunden digital verwalten | Veränderungen werden wieder in DB persistiert|
 |Kunde ist nicht registriert | Kunde registriert sich | Kunde ist registriert|
-
-Kunde ist eingeloggt | Kunde ruft News ab | Kunde bekommt News angezeigt
-
-Eingeloggt in Mailsystem |Kunde/Mitarbeiter sendet Nachricht | Nachricht wurde versendet
+|Kunde ist eingeloggt | Kunde ruft News ab | Kunde bekommt News angezeigt|
+|Eingeloggt in Mailsystem |Kunde/Mitarbeiter sendet Nachricht | Nachricht wurde versendet|
 
 4. Leiten Sie die Teilaufgaben ab.
 
 Kundenverwaltung:
-
-Kunde suchen | Korrekte Kundendaten werden zurückgegeben
-
-Kundendaten verändern | Kundendaten wurden verändert
-
-Kundendaten speichern | Veränderte Kundendaten wurden gespeichert
+|Teilaufgabe|Nachbedingung|
+|:--|:--|
+|Kunde suchen | Korrekte Kundendaten werden zurückgegeben|
+|Kundendaten verändern | Kundendaten wurden verändert|
+|Kundendaten speichern | Veränderte Kundendaten wurden gespeichert|
 
 Kundenregistrierung:
-
-Kunde gibt Kundendaten ein | Kundendaten wurden in der Registrierungsmaske erfasst
-
-Kunde betätigt den registrier-Button | Kunde wurde registriert und in Datenbank gespeichert sofern Kundendaten valide
+|Teilaufgabe|Nachbedingung|
+|:--|:--|
+|Kunde gibt Kundendaten ein | Kundendaten wurden in der Registrierungsmaske erfasst|
+|Kunde betätigt den registrier-Button | Kunde wurde registriert und in Datenbank gespeichert sofern Kundendaten valide|
 
 Newsabruf:
-
-Kunde loggt sich ein | Kunde ist eingeloggt
-
-Kunde betätigt News-Button | Kunde wurde auf News-Seite weitergeleitet
+|Teilaufgabe|Nachbedingung|
+|:--|:--|
+|Kunde loggt sich ein | Kunde ist eingeloggt|
+|Kunde betätigt News-Button | Kunde wurde auf News-Seite weitergeleitet|
 
 Nachrichtensystem:
-
-Kunde/Mitarbeiter loggt sich ein | Kunde/Mitarbeiter ist eingeloggt
-
-Kunde/Mitarbeiter sendet Nachricht an validen Empfänger | Nachricht wurde gesendet
-
-Kunde/Mitarbeiter empfängt Nachricht | Nachricht wird in Postfach angezeigt
-
-Kunde/Mitarbeiter ruft empfangene Nachricht auf | Empfangene Nachricht wird angezeigt
+|Teilaufgabe|Nachbedingung|
+|:--|:--|
+|Kunde/Mitarbeiter loggt sich ein | Kunde/Mitarbeiter ist eingeloggt|
+|Kunde/Mitarbeiter sendet Nachricht an validen Empfänger | Nachricht wurde gesendet|
+|Kunde/Mitarbeiter empfängt Nachricht | Nachricht wird in Postfach angezeigt|
+|Kunde/Mitarbeiter ruft empfangene Nachricht auf | Empfangene Nachricht wird angezeigt|
 
 5. Notieren Sie die Nutzungsanforderungen.
 
 Kundenverwaltung:
-
-Kunde suchen | Der Nutzer muss die Daten des Kunden für die Suche eingeben können.
-
-Kundendaten verändern | Der Nutzer muss die vorhandenen Kundendaten verändern können
-
-Kundendaten speichern | Der Nutzer muss die Kundendaten mithilfe eines Buttons persistieren können
+|Teilaufgabe|Nutzungsanforderung|
+|:--|:--|
+|Kunde suchen | Der Nutzer muss die Daten des Kunden für die Suche eingeben können.|
+|Kundendaten verändern | Der Nutzer muss die vorhandenen Kundendaten verändern können|
+|Kundendaten speichern | Der Nutzer muss die Kundendaten mithilfe eines Buttons persistieren können|
 
 Kundenregistrierung:
-
-Kunde gibt Kundendaten ein | Kunde muss im System seine Daten eingeben können.
-
-Kunde betätigt den registrier-Button | Registrier-Button muss vorhanden sein und den Kunden im System speichern
+|Teilaufgabe|Nutzungsanforderung|
+|:--|:--|
+|Kunde gibt Kundendaten ein | Kunde muss im System seine Daten eingeben können.|
+|Kunde betätigt den registrier-Button | Registrier-Button muss vorhanden sein und den Kunden im System speichern|
 
 Newsabruf:
-
-Kunde loggt sich ein | Kunde muss seine Login-Daten am System eingeben können.
-
-Kunde betätigt News-Button | News-Button muss vorhanden sein und die News-Seite aufrufen.
+|Teilaufgabe|Nutzungsanforderung|
+|:--|:--|
+|Kunde loggt sich ein | Kunde muss seine Login-Daten am System eingeben können.|
+|Kunde betätigt News-Button | News-Button muss vorhanden sein und die News-Seite aufrufen.|
 
 Nachrichtensystem:
-
-Kunde/Mitarbeiter loggt sich ein | Kunde/Mitarbeiter muss am System seine Login-Daten angeben können.
-
-Kunde/Mitarbeiter sendet Nachricht an validen Empfänger | Kunde/Mitarbeiter muss Text in Form einer Nachricht am System eingeben und über einen Button versenden können.
-
-Kunde/Mitarbeiter empfängt Nachricht | Kunde/Mitarbeiter muss Nachricht im Postfach angezeigt bekommen.
-
-Kunde/Mitarbeiter ruft empfangene Nachricht auf | Ein Klick auf die empfangene Nachricht muss diese aufrufen und die korrekte Nachricht ausgeben.
+|Teilaufgabe|Nutzungsanforderung|
+|:--|:--|
+|Kunde/Mitarbeiter loggt sich ein | Kunde/Mitarbeiter muss am System seine Login-Daten angeben können.|
+|Kunde/Mitarbeiter sendet Nachricht an validen Empfänger | Kunde/Mitarbeiter muss Text in Form einer Nachricht am System eingeben und über einen Button versenden können.|
+|Kunde/Mitarbeiter empfängt Nachricht | Kunde/Mitarbeiter muss Nachricht im Postfach angezeigt bekommen.|
+|Kunde/Mitarbeiter ruft empfangene Nachricht auf | Ein Klick auf die empfangene Nachricht muss diese aufrufen und die korrekte Nachricht ausgeben.|
 
 # Aufgabe 3
 Nach dem Sie die Anforderungen erhoben haben erstellen Sie exemplarisch für die wichtigsten beiden Kernaufgaben Mockups.
@@ -200,6 +193,19 @@ Die einzigen nötigen Laufzeitumgebungsanforderungen sollen ein Browser und eine
 
 Sonstige Anforderungen an das Produkt:
 
-Gesetzliche Vorgaben -> Kunde muss innerhalb einer gesetzten Frist nach Kündigung des Abonnements aus der Datenbank gelöscht werden
+Gesetzliche Vorgaben:
+-> Kunde muss innerhalb einer gesetzten Frist nach Kündigung des Abonnements aus der Datenbank gelöscht werden
+-> Kunde muss über Datenspeicherung informiert werden
 
-Lizenzmanagement -> Das Nachrichtensystem sowie die Datenbank werden über Lizenzen für die nächsten 4 Jahre erworben
+Lizenzmanagement:
+-> Das Nachrichtensystem sowie die Datenbank werden über Lizenzen für die nächsten 4 Jahre erworben
+
+## Aufgabenblatt 1
+#Aufgabe 4:
+
+In welchen Phasen eines Entwicklungsprozesses ist ein Software-Architekt tätig? 
+
+Phase des technischen Systementwurfs
+Phase der Komponenten Spezifikation, Erstellung des detaillierten Designs
+
+

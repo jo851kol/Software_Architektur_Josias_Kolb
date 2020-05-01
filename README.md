@@ -1,7 +1,7 @@
 # Aufgabenblatt 1
 ## Aufgabe 1
 
-1. Wie beschreibt man eine technische Schnittstelle vollständig?
+### 1. Wie beschreibt man eine technische Schnittstelle vollständig?
 
 -> System-System-Schnittstellen
 * Namen und Zweck der nach außen verfügbaren Funktionen/Methoden
@@ -10,32 +10,33 @@
 * Sicherheit der Schnittstelle (Verschlüsselung, Authentifizierung, Verifizierung)
 * Zuverlässigkeit/Robustheit ( z.B. Reaktion auf fehlerhafte Inputs)
 
-2. Wie beschreibt man eine Benutzerschnittstelle?
+### 2. Wie beschreibt man eine Benutzerschnittstelle?
 
 -> GUI, User Interface
 * Ermöglicht dem Benutzer die Interaktion mit der Anwendung
 * Beschreibung der Eigenschaften/Funktionalen Anforderungen wie bei den technischen Schnittstellen
 
-3. Welche weiteren Aspekte sollte eine vollständige Systemanforderung beschreiben?
+### 3. Welche weiteren Aspekte sollte eine vollständige Systemanforderung beschreiben?
 
 * Spezifikation aller weiteren Schnittstellen (Datenschnittstellen, Schnittstellen zur Laufzeitumgebung)
 * Pflichtenheft
 
-4. Was sollte eine Systemanforderung beschreiben?
+### 4. Was sollte eine Systemanforderung beschreiben?
 
 * Das gesamte System aus Black Box-Sicht, definiert über die Schnittstellen
 
-5. Wie nennt man Systemanforderungen noch? Wie unterscheiden sie sich von Stakeholder-Anforderungen?
+### 5. Wie nennt man Systemanforderungen noch? Wie unterscheiden sie sich von Stakeholder-Anforderungen?
 
 * SRS-> Systemanforderungen sind Teilmenge von SRS
 * Stakeholderanforderungen beschreiben die individuellen Anforderungen der Stakeholder an das System, während die Systemanforderungen das System aus technischer Sicht beschreiben (z.B. aus Black-Box-Sicht)
 
 ## Aufgabe 2
-1. Identifizieren Sie die Nutzer Gruppen.
+
+### 1. Identifizieren Sie die Nutzer Gruppen.
 
 Abonnenten/Kunden, Mitarbeiter
 
-2. identifizieren Sie die Erfordernisse
+### 2. identifizieren Sie die Erfordernisse
 
 * Der Mitarbeiter muss mindestens ein Kundenmerkmal eines Kunden kennen, um eine Suche nach diesem starten zu können.<br>
 * Der Mitarbeiter muss die aktualisierten Kundendaten eines Kunden kennen, um diesen im System verändern zu können.<br>
@@ -48,7 +49,7 @@ Abonnenten/Kunden, Mitarbeiter
 
 Für Kunden: Digitale Registrierungsmöglichkeit + online Abrufbarkeit der News
 
-3. Erheben Sie die Kernaufgaben.
+### 3. Erheben Sie die Kernaufgaben.
 
 |Vorbedingung|Kernaufgabe|Nachbedingung|
 |:--|:--|:--|
@@ -57,7 +58,7 @@ Für Kunden: Digitale Registrierungsmöglichkeit + online Abrufbarkeit der News
 |Kunde ist eingeloggt | News abrufen | News werden angezeigt|
 |Eingeloggt in Mailsystem |Kunde/Mitarbeiter sendet Nachricht | Nachricht wurde versendet|
 
-4. Leiten Sie die Teilaufgaben ab.
+### 4. Leiten Sie die Teilaufgaben ab.
 
 Kundenverwaltung:
 |Teilaufgabe|Nachbedingung|
@@ -86,7 +87,7 @@ Nachrichtensystem:
 |Kunde/Mitarbeiter empfängt Nachricht | Nachricht wird in Postfach angezeigt|
 |Kunde/Mitarbeiter ruft empfangene Nachricht auf | Empfangene Nachricht wird angezeigt|
 
-5. Notieren Sie die Nutzungsanforderungen.
+### 5. Notieren Sie die Nutzungsanforderungen.
 
 Kundenverwaltung:
 |Teilaufgabe|Nutzungsanforderung|
@@ -119,7 +120,7 @@ Nach dem Sie die Anforderungen erhoben haben erstellen Sie exemplarisch für die
 
 Gewählte Kernaufgaben: Kundenregistrierung und Kundenverwaltung/Bearbeitung
 
-1. Mockups zur Kundenverwaltung/Bearbeitung: 
+### 1. Mockups zur Kundenverwaltung/Bearbeitung: 
 
 Search Customer
 
@@ -135,7 +136,7 @@ Register
 
 ![Mockup_1_Register](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Wireframe_3_Register.png)
 
-2. Wie kann eine SRS gegliedert sein?
+### 2. Wie kann eine SRS gegliedert sein?
 
 * Einleitung (Projektbeschreibung/Zweck, Ziel)
 * Beschreibung des zu entwickelnden Systems
@@ -152,7 +153,7 @@ Register
       * Gesetzliche Vorgaben
       
       
- 3. Erstellen Sie eine komplette SRS.
+### 3. Erstellen Sie eine komplette SRS.
  
 Einleitung:
 

@@ -47,8 +47,6 @@ Abonnenten/Kunden, Mitarbeiter
 * Der Kunde muss seine Mailaddresse und sein Passwort kennen, um sich am System einloggen zu können.
 * Der Kunde muss über einen Account verfügen, um die News am System abrufen zu können.
 
-Für Kunden: Digitale Registrierungsmöglichkeit + online Abrufbarkeit der News
-
 ### 3. Erheben Sie die Kernaufgaben.
 
 |Vorbedingung|Kernaufgabe|Nachbedingung|

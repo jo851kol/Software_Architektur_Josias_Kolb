@@ -37,7 +37,14 @@ Abonnenten/Kunden, Mitarbeiter
 
 2. identifizieren Sie die Erfordernisse
 
-Für Mitarbeiter: Digitale Verwaltungsmöglichkeit der Kunden in DB, Nachrichtensystem zwischen Kunden u. Mitarbeiter
+* Der Mitarbeiter muss mindestens ein Kundenmerkmal eines Kunden kennen, um eine Suche nach diesem starten zu können.<br>
+* Der Mitarbeiter muss die aktualisierten Kundendaten eines Kunden kennen, um diesen im System verändern zu können.<br>
+* Der Mitarbeiter muss die Mailaddresse eines Kunden kennen, um diesem eine Nachricht schicken zu können.<br>
+
+* Der Kunde muss die Mailaddresse eines Mitarbeiters kennen, um diesem eine Nachricht schicken zu können.<br>
+* Der Kunde muss seine Kundendaten kennen, um sich im System registrieren zu können.<br>
+* Der Kunde muss seine Mailaddresse und sein Passwort kennen, um sich am System einloggen zu können.
+* Der Kunde muss über einen Account verfügen, um die News am System abrufen zu können.
 
 Für Kunden: Digitale Registrierungsmöglichkeit + online Abrufbarkeit der News
 
@@ -45,9 +52,9 @@ Für Kunden: Digitale Registrierungsmöglichkeit + online Abrufbarkeit der News
 
 |Vorbedingung|Kernaufgabe|Nachbedingung|
 |:--|:--|:--|
-|Kunden sind registriert | Mitarbeiter kann Kunden digital verwalten | Veränderungen werden wieder in DB persistiert|
+|Kunden ist registriert | Kunde verwalten | Veränderungen werden wieder in DB persistiert|
 |Kunde ist nicht registriert | Kunde registriert sich | Kunde ist registriert|
-|Kunde ist eingeloggt | Kunde ruft News ab | Kunde bekommt News angezeigt|
+|Kunde ist eingeloggt | News abrufen | News werden angezeigt|
 |Eingeloggt in Mailsystem |Kunde/Mitarbeiter sendet Nachricht | Nachricht wurde versendet|
 
 4. Leiten Sie die Teilaufgaben ab.
@@ -56,8 +63,8 @@ Kundenverwaltung:
 |Teilaufgabe|Nachbedingung|
 |:--|:--|
 |Kunde suchen | Korrekte Kundendaten werden zurückgegeben|
-|Kundendaten verändern | Kundendaten wurden verändert|
-|Kundendaten speichern | Veränderte Kundendaten wurden gespeichert|
+|Kundendaten bearbeiten | Änderungen sind übernommen|
+|Kundendaten speichern | Kunde wurde in Datenbank persistiert|
 
 Kundenregistrierung:
 |Teilaufgabe|Nachbedingung|
@@ -84,29 +91,28 @@ Nachrichtensystem:
 Kundenverwaltung:
 |Teilaufgabe|Nutzungsanforderung|
 |:--|:--|
-|Kunde suchen | Der Nutzer muss die Daten des Kunden für die Suche eingeben können.|
-|Kundendaten verändern | Der Nutzer muss die vorhandenen Kundendaten verändern können|
-|Kundendaten speichern | Der Nutzer muss die Kundendaten mithilfe eines Buttons persistieren können|
+|Kunde suchen | Der Nutzer muss am System die Daten des Kunden eingeben können.|
+|Kundendaten bearbeiten | Der Nutzer muss am System die aktualisierten Kundendaten eingeben können.|
+|Kundendaten speichern | Der Nutzer muss am System den Button zum Persistieren der Daten auswählen können.|
 
 Kundenregistrierung:
 |Teilaufgabe|Nutzungsanforderung|
 |:--|:--|
-|Kunde gibt Kundendaten ein | Kunde muss im System seine Daten eingeben können.|
-|Kunde betätigt den registrier-Button | Registrier-Button muss vorhanden sein und den Kunden im System speichern|
+|Kunde gibt Kundendaten ein | Der Nuzter muss am System seine Daten eingeben können.|
+|Kunde betätigt den Button zur Registrierung | Der Nutzter muss am System den Button zum Registrieren auswählen können.|
 
 Newsabruf:
 |Teilaufgabe|Nutzungsanforderung|
 |:--|:--|
-|Kunde loggt sich ein | Kunde muss seine Login-Daten am System eingeben können.|
-|Kunde betätigt News-Button | News-Button muss vorhanden sein und die News-Seite aufrufen.|
+|Kunde loggt sich ein | Der Nutzer muss am System seine Login-Daten eingeben können.|
+|Kunde ruft News ab | Der Nutzer muss am System die News auswählen können.|
 
 Nachrichtensystem:
 |Teilaufgabe|Nutzungsanforderung|
 |:--|:--|
-|Kunde/Mitarbeiter loggt sich ein | Kunde/Mitarbeiter muss am System seine Login-Daten angeben können.|
-|Kunde/Mitarbeiter sendet Nachricht an validen Empfänger | Kunde/Mitarbeiter muss Text in Form einer Nachricht am System eingeben und über einen Button versenden können.|
-|Kunde/Mitarbeiter empfängt Nachricht | Kunde/Mitarbeiter muss Nachricht im Postfach angezeigt bekommen.|
-|Kunde/Mitarbeiter ruft empfangene Nachricht auf | Ein Klick auf die empfangene Nachricht muss diese aufrufen und die korrekte Nachricht ausgeben.|
+|Kunde/Mitarbeiter loggt sich ein | Der Nutzer muss am System seine Login-Daten eingeben können.|
+|Kunde/Mitarbeiter sendet Nachricht | Der Nutzer muss am System eine Nachricht eingeben können.|
+|Kunde/Mitarbeiter ruft empfangene Nachricht | Der Nutzer muss am System eine empfangene Nachricht auswählen können.|
 
 ## Aufgabe 3
 Nach dem Sie die Anforderungen erhoben haben erstellen Sie exemplarisch für die wichtigsten beiden Kernaufgaben Mockups.
@@ -173,23 +179,20 @@ Dynamisches Verhalten:
 4 Durch Betätigung des Save-Buttons werden die vorgenommenen Änderungen gespeichert und in der Datenbank persistiert, sofern sie valide sind.
 
 Schnittstellen:
-* Benutzerschnittstelle über die Website (Für Mitarbeiter u. Kunden) 
 
- -> Sicherheitsmaßnahmen gegen Scripting-Attacks, Authentifizierung vor Datenzugriff sowie Verifizierung vor Kundenbearbeitung (Mitarbeiter)
- 
+* Benutzerschnittstelle über die Website (Für Mitarbeiter u. Kunden) <br>
+ -> Sicherheitsmaßnahmen gegen Scripting-Attacks, Authentifizierung vor Datenzugriff sowie Verifizierung vor Kundenbearbeitung (Mitarbeiter)<br>
   -> Performanz: Schnittstelle muss mindestens 500 000 Benutzer gleichzeitig ohne Performancebeeinträchtigungen bewältigen können
   
-* Datenschnittstelle zwischen Anwendung und Kundendatenbank 
-
+* Datenschnittstelle zwischen Anwendung und Kundendatenbank <br>
  -> Verschlüsselte Speicherung der Kundeninformationen, mind. 1000 TX/S
  
- * System-System-Schnittstelle zwischen Website und Nachrischtensystem, da es möglich sein soll die Nachrichten über die Website abzurufen
- 
+ * System-System-Schnittstelle zwischen Website und Nachrischtensystem, da es möglich sein soll die Nachrichten über die Website abzurufen<br>
  -> IMAP-Behaviour, gelesene Nachrichten werden auch bei späterem reinem Zugriff über das Nachrichtensystem als gelesen markiert
   
-Laufzeitumgebung: 
-
-Die einzigen nötigen Laufzeitumgebungsanforderungen sollen ein Browser und eine intakte Internetverbindung sein.
+Laufzeitumgebung:<br>
+-> Frontend: unterstützte Browser sind Chrome, Firefox und Internet Explorer, eine intakte Internetverbindung muss zu jedem Zeitpunkt vorhanden sein<br>
+-> Backend: aktive Verbindung zur Datenbank und zum Nachrichtensystem muss sichergestellt werden
 
 Sonstige Anforderungen an das Produkt:
 

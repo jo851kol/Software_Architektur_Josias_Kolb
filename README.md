@@ -1,5 +1,5 @@
-## Aufgabenblatt 1
-# Aufgabe 1
+# Aufgabenblatt 1
+## Aufgabe 1
 
 1. Wie beschreibt man eine technische Schnittstelle vollständig?
 
@@ -30,7 +30,7 @@
 * SRS-> Systemanforderungen sind Teilmenge von SRS
 * Stakeholderanforderungen beschreiben die individuellen Anforderungen der Stakeholder an das System, während die Systemanforderungen das System aus technischer Sicht beschreiben (z.B. aus Black-Box-Sicht)
 
-# Aufgabe 2
+## Aufgabe 2
 1. Identifizieren Sie die Nutzer Gruppen.
 
 Abonnenten/Kunden, Mitarbeiter
@@ -108,7 +108,7 @@ Nachrichtensystem:
 |Kunde/Mitarbeiter empfängt Nachricht | Kunde/Mitarbeiter muss Nachricht im Postfach angezeigt bekommen.|
 |Kunde/Mitarbeiter ruft empfangene Nachricht auf | Ein Klick auf die empfangene Nachricht muss diese aufrufen und die korrekte Nachricht ausgeben.|
 
-# Aufgabe 3
+## Aufgabe 3
 Nach dem Sie die Anforderungen erhoben haben erstellen Sie exemplarisch für die wichtigsten beiden Kernaufgaben Mockups.
 
 Gewählte Kernaufgaben: Kundenregistrierung und Kundenverwaltung/Bearbeitung
@@ -193,15 +193,15 @@ Die einzigen nötigen Laufzeitumgebungsanforderungen sollen ein Browser und eine
 
 Sonstige Anforderungen an das Produkt:
 
-Gesetzliche Vorgaben:
--> Kunde muss innerhalb einer gesetzten Frist nach Kündigung des Abonnements aus der Datenbank gelöscht werden
+Gesetzliche Vorgaben:<br>
+-> Kunde muss innerhalb einer gesetzten Frist nach Kündigung des Abonnements aus der Datenbank gelöscht werden<br>
 -> Kunde muss über Datenspeicherung informiert werden
 
 Lizenzmanagement:
 -> Das Nachrichtensystem sowie die Datenbank werden über Lizenzen für die nächsten 4 Jahre erworben
 
-## Aufgabenblatt 1
-#Aufgabe 4:
+# Aufgabenblatt 1
+## Aufgabe 4:
 
 In welchen Phasen eines Entwicklungsprozesses ist ein Software-Architekt tätig? 
 

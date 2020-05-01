@@ -75,7 +75,7 @@ Newsabruf:
 |Teilaufgabe|Nachbedingung|
 |:--|:--|
 |Kunde loggt sich ein | Kunde ist eingeloggt|
-|Kunde betätigt News-Button | Kunde wurde auf News-Seite weitergeleitet|
+|Kunde ruft News ab | Kunde wurde auf News-Seite weitergeleitet|
 
 Nachrichtensystem:
 |Teilaufgabe|Nachbedingung|

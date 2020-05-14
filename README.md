@@ -205,9 +205,23 @@ Lizenzmanagement:
 # Aufgabenblatt 2
 ## Aufgabe 4:
 
-In welchen Phasen eines Entwicklungsprozesses ist ein Software-Architekt tätig? 
+### 1. In welchen Phasen eines Entwicklungsprozesses ist ein Software-Architekt tätig? 
 
 Phase des technischen Systementwurfs
 Phase der Komponenten Spezifikation, Erstellung des detaillierten Designs
 
+### 2. Welche Aufgaben hat ein Software-Architekt?
 
+### 3. Was ist der Input, was der Output seiner Tätigkeit in Bezug auf Dokumente?
+
+### 4. Was ist das Ziel der Software-Architektur?
+
+### 5. Was sollte eine Software-Architektur beschreiben?
+
+### 6. Welche Inhalte sollte ein Architekturdokument enthalten?
+
+### 7. Woraufhin sollte man dieses Dokument prüfen? Wie kann man das machen? Was zeichnet ein gutes Dokument aus? Was eine gute Architektur?
+
+### 8. Welche Einflussfaktoren sollte ein Architekt beachten?
+
+### 9. Wie können sich diese und die Systemanforderungen widersprechen? Nennen Sie Beispiele.

@@ -220,14 +220,14 @@ Lizenzmanagement:
 
 ### 3. Was ist der Input, was der Output seiner Tätigkeit in Bezug auf Dokumente?
 
-Input:<\br>
+Input:<br>
 * Systemspezifikation sowie Systemanforderungen, welche oftmals unpräzise und instabil ist
  -> SRS-Dokument
  -> Pflichtenheft
  -> Beschreibung des Systems aus Blackbox Sicht
 * organisatorische und technische Einflussfaktoren (sofern dokumentiert)
  
- Output:<\br>
+ Output:<br>
  * Software-Architekturdokument mit allen notwendigen Diagrammen
 
 ### 4. Was ist das Ziel der Software-Architektur?
@@ -252,19 +252,19 @@ Input:<\br>
 * Technologien (Programmiersprache, Frameworks, etc.)
 
 ### 7. Woraufhin sollte man dieses Dokument prüfen? Wie kann man das machen? Was zeichnet ein gutes Dokument aus? Was eine gute Architektur?
-Prüfbar auf:<\br>
+Prüfbar auf:<br>
 * Abstraktion
 * Kapselung
 * Modularität
 * Hierarchie
 * Konzeptuelle Integrität (Ist die Architektur zugleich verständlich und erweiterungsfähig? Können neue Features ohne Probleme eingebaut werden? Ist das Design konsistent?)
 
-Die Prüfung kann durch Dritte wie z.B. Entwickler, Produktmanager oder andere Architekten durchgeführt werden. Aspekte, welche bei der Prüfung beachtet werden sollten:<\br>
+Die Prüfung kann durch Dritte wie z.B. Entwickler, Produktmanager oder andere Architekten durchgeführt werden. Aspekte, welche bei der Prüfung beachtet werden sollten:<br>
 * Vollständigkeit
 * Verständlichkeit (Sprache, Diagramme)
 * Traceability Matrix (Rückverfolgbarkeit/Nachvollziehbarkeit, Zuordenbarkeit von Anforderungen zu bestimmten Artefakten/Komponenten)
 
-Eigenschaften eines guten Software-Architekturdokuments:<\br>
+Eigenschaften eines guten Software-Architekturdokuments:<br>
 * Vollständig
 * Richtige Verarbeitung aller Einflussfaktoren
 * Erfüllung der SRS

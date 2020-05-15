@@ -292,3 +292,16 @@ Eigenschaften einer guten Architektur:
 * Eventuell erfordern die Systemanforderungen die Speicherung bestimmter Nutzerdaten, was nicht mit den gesetzlichen Datenschutzrichtlinien konform ist. (=\mit organisatorischen EF)
 * Eine neue Technologie, welche laut Systemanforderung benutzt werden soll ist nicht kompatibel mit der bestehenden Systemlandschaft. (=\mit technischen EF)
 * Das Projekt soll in vollen Umfang in einem nicht erfüllbaren Zeitrahmen durchgeführt werden ohne Aufstockung des Budgets. (=\mit organisatorischn EF)
+
+
+## Aufgabe 5:
+Schreiben Sie ein komplettes Software Architektur Dokument inklusive aller in der Vorlesung kennengelernten UML-Diagrammen.
+
+### Grobarchitektur
+
+### Feinarchitektur
+
+### Beschreibung der Technologien
+
+Das Softwaresystem wird mit der Programmiersprache Javascript und der Javascript-Bibliothek ReactJS umgesetzt.<br>
+Als Datenbank wird Amazon Aurora verwendet. Bezüglich der Internationalisierung werden die Sprachen Deutsch und Englisch zur Verfügung gestellt. Die Entwicklungsumgebung kann von jedem Entwickler selbst gewählt werden, empfohlen wird IntelliJ.

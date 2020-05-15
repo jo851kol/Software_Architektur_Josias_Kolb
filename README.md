@@ -207,21 +207,88 @@ Lizenzmanagement:
 
 ### 1. In welchen Phasen eines Entwicklungsprozesses ist ein Software-Architekt tätig? 
 
-Phase des technischen Systementwurfs
-Phase der Komponenten Spezifikation, Erstellung des detaillierten Designs
+* Phase des technischen Systementwurfs
+* Phase der Komponenten Spezifikation, Erstellung des detaillierten Designs
+* Mit Kontrollfunktion in der Phase der Programmierung
+* Ev. Komponenten- und Integrationstests
 
 ### 2. Welche Aufgaben hat ein Software-Architekt?
 
+* Software-Architekturpläne incl. aller notwendigen Diagramme erstellen
+* Entwickler kontrollieren
+* Technologien wählen
+
 ### 3. Was ist der Input, was der Output seiner Tätigkeit in Bezug auf Dokumente?
+
+Input:<\br>
+* Systemspezifikation sowie Systemanforderungen, welche oftmals unpräzise und instabil ist
+ -> SRS-Dokument
+ -> Pflichtenheft
+ -> Beschreibung des Systems aus Blackbox Sicht
+* organisatorische und technische Einflussfaktoren (sofern dokumentiert)
+ 
+ Output:<\br>
+ * Software-Architekturdokument mit allen notwendigen Diagrammen
 
 ### 4. Was ist das Ziel der Software-Architektur?
 
+* Sicherstellen einer guten Architektur nach ISO 25010 Standard
+* Das System in Komponenten zerlegen
+* Bauplan / Arbeitsanweisung für Entwickler erstellen
+* Lässt sich in der vorgegebenen Zeit und im vorgegebenen Kostenrahmen realisieren
+
 ### 5. Was sollte eine Software-Architektur beschreiben?
+
+* Beschreibung der grundlegenden Organisation des Systems, dargestellt durch die Komponenten und deren Beziehungen zueinander und zur Umgebung
+ -> Beschreibung der Grobarchitektur durch Komponenten(logische Sicht)- Aktivitäts/Sequenz- und Verteilungsdiagramm
+ -> Beschreibung der Feinarchitektur durch Komponenten- oder Klassendiagramm
 
 ### 6. Welche Inhalte sollte ein Architekturdokument enthalten?
 
+* Komponenten- Aktivitäts- Sequenz- Verteilungs- und Klassendiagramme
+* Cross Cutting Concerns (Querschnittsaspekte)
+* Werkzeuge
+* Integrationsstrategie
+* Technologien (Programmiersprache, Frameworks, etc.)
+
 ### 7. Woraufhin sollte man dieses Dokument prüfen? Wie kann man das machen? Was zeichnet ein gutes Dokument aus? Was eine gute Architektur?
+Prüfbar auf:<\br>
+* Abstraktion
+* Kapselung
+* Modularität
+* Hierarchie
+* Konzeptuelle Integrität (Ist die Architektur zugleich verständlich und erweiterungsfähig? Können neue Features ohne Probleme eingebaut werden? Ist das Design konsistent?)
+
+Die Prüfung kann durch Dritte wie z.B. Entwickler, Produktmanager oder andere Architekten durchgeführt werden. Aspekte, welche bei der Prüfung beachtet werden sollten:<\br>
+* Vollständigkeit
+* Verständlichkeit (Sprache, Diagramme)
+* Traceability Matrix (Rückverfolgbarkeit/Nachvollziehbarkeit, Zuordenbarkeit von Anforderungen zu bestimmten Artefakten/Komponenten)
+
+Eigenschaften eines guten Software-Architekturdokuments:<\br>
+* Vollständig
+* Richtige Verarbeitung aller Einflussfaktoren
+* Erfüllung der SRS
+* Verständlichkeit/Übersichtlichkeit
+
+Eigenschaften einer guten Architektur:
+* Erfüllt die Standards von ISO 25010
+* Modularität der Komponenten
+  -> Testbar
+  -> Änderbar
+  -> Austauschbar
+  -> Wiederverwendbar
+  -> Planbar
+ * Komponentenorientiert
+ * Weak coupling (Lose Kopplung der Komponenten)
+ * Strong cohesion (Starker Zusammenhang innerhalb der Komponenten)
 
 ### 8. Welche Einflussfaktoren sollte ein Architekt beachten?
 
+* Technische Einflussfaktoren (Hardware, Entwicklungswerkzeuge, etc.)
+* Organisatorische Einflussfaktoren (Budget, Zeit, gesetzliche Anforderungen, etc.)
+
 ### 9. Wie können sich diese und die Systemanforderungen widersprechen? Nennen Sie Beispiele.
+
+* Eventuell erfordern die Systemanforderungen die Speicherung bestimmter Nutzerdaten, was nicht mit den gesetzlichen Datenschutzrichtlinien konform ist. (=\mit organisatorischen EF)
+* Eine neue Technologie, welche laut Systemanforderung benutzt werden soll ist nicht kompatibel mit der bestehenden Systemlandschaft. (=\mit technischen EF)
+* Das Projekt soll in vollen Umfang in einem nicht erfüllbaren Zeitrahmen durchgeführt werden ohne Aufstockung des Budgets. (=\mit organisatorischn EF)

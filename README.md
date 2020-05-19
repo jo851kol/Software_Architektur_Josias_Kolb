@@ -304,4 +304,17 @@ Schreiben Sie ein komplettes Software Architektur Dokument inklusive aller in de
 ### Beschreibung der Technologien
 
 Das Softwaresystem wird mit der Programmiersprache Javascript und der Javascript-Bibliothek ReactJS umgesetzt.<br>
-Als Datenbank wird Amazon Aurora verwendet. Bezüglich der Internationalisierung werden die Sprachen Deutsch und Englisch zur Verfügung gestellt. Die Entwicklungsumgebung kann von jedem Entwickler selbst gewählt werden, empfohlen wird IntelliJ.
+Als Datenbank wird Amazon Aurora verwendet. 
+
+### Cross Cutting Concerns
+
+Bezüglich der Internationalisierung wird nur die Sprache Deutsch zur Verfügung gestellt. 
+
+### Werkzeuge
+
+Die Entwicklungsumgebung kann von jedem Entwickler selbst gewählt werden, empfohlen wird IntelliJ. <br>
+Als Versionsverwaltung wird Github und als Build Server wird Jenkins verwendet. Die Planung der Arbeitsschritte in Form von Issues wird mit der Jiraa-Software durchgeführt.
+
+### Integrationsstrategie
+
+Ad-Hoc-Ansatz -> Softwarekomponenten werden in der Reihenfolge ihrer Fertigstellung integriert

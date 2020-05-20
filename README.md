@@ -317,4 +317,4 @@ Als Versionsverwaltung wird Github und als Build Server wird Jenkins verwendet. 
 
 ### Integrationsstrategie
 
-Ad-Hoc-Ansatz -> Softwarekomponenten werden in der Reihenfolge ihrer Fertigstellung integriert
+Big-Bang-Ansatz -> Softwarekomponenten werden in der Reihenfolge ihrer Fertigstellung integriert

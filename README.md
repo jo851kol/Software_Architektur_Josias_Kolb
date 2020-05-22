@@ -303,7 +303,7 @@ Schreiben Sie ein komplettes Software Architektur Dokument inklusive aller in de
 ![Komponentendiagramm der nicht modernen Firma](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Komponentendiagram_Nicht_Moderne_Firma.png)
 
 #### Aktivitätsdiagramm des Newsletterabrufs:
-![Aktivitätsdiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Aktivitätsdiagramm_Nicht_Moderne_Firma.png)
+![Aktivitätsdiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Aktivitätsdiagram_Nicht_Moderne_Firma.png)
 
 #### Sequenzdiagramm des Newsletterabrufs:
 ![Sequenzdiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Sequenzdiagramm_Nicht_Moderne_Firma.png)

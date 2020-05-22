@@ -299,7 +299,22 @@ Schreiben Sie ein komplettes Software Architektur Dokument inklusive aller in de
 
 ### Grobarchitektur
 
+#### Komponentendiagramm:
+![Komponentendiagramm der nicht modernen Firma](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Komponentendiagram_Nicht_Moderne_Firma.png)
+
+#### Aktivitätsdiagramm des Newsletterabrufs:
+![Aktivitätsdiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Aktivitätsdiagramm_Nicht_Moderne_Firma.png)
+
+#### Sequenzdiagramm des Newsletterabrufs:
+![Sequenzdiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Sequenzdiagramm_Nicht_Moderne_Firma.png)
+
+#### Verteilungsdiagramm:
+![Verteilungsdiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Verteilungsdiagramm_Nicht_Moderne_Firma.png)
+
 ### Feinarchitektur
+
+#### Klassendiagramm:
+![Klassendiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Klassendiagramm_Nicht_Moderne_Firma.png)
 
 ### Beschreibung der Technologien
 
@@ -317,4 +332,4 @@ Als Versionsverwaltung wird Github und als Build Server wird Jenkins verwendet. 
 
 ### Integrationsstrategie
 
-Big-Bang-Ansatz -> Softwarekomponenten werden in der Reihenfolge ihrer Fertigstellung integriert
+Big-Bang-Ansatz -> Softwarekomponenten werden alle gemeinsam in die Produktivumgebung über

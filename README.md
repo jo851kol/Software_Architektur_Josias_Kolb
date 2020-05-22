@@ -309,12 +309,12 @@ Schreiben Sie ein komplettes Software Architektur Dokument inklusive aller in de
 ![Sequenzdiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Sequenzdiagramm_Nicht_Moderne_Firma.png)
 
 #### Verteilungsdiagramm:
-![Verteilungsdiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Verteilungsdiagramm_Nicht_Moderne_Firma.png)
+![Verteilungsdiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Verteilungsdiagram_Nicht_Moderne_Firma.png)
 
 ### Feinarchitektur
 
 #### Klassendiagramm:
-![Klassendiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Klassendiagramm_Nicht_Moderne_Firma.png)
+![Klassendiagramm der nicht modernen Firma, Newsletteraufruf](https://github.com/jo851kol/Software_Architektur_Josias_Kolb/blob/master/Klassendiagram_Nicht_Moderne_Firma.png)
 
 ### Beschreibung der Technologien
 

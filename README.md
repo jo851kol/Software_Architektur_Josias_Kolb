@@ -333,3 +333,6 @@ Als Versionsverwaltung wird Github und als Build Server wird Jenkins verwendet. 
 ### Integrationsstrategie
 
 Big-Bang-Ansatz -> Softwarekomponenten werden alle gemeinsam in die Produktivumgebung über
+
+## Aufgabe 6:
+Die prototypische Mockupimplementierung wurde ins Repository Commited und kann über /register, /search und /customer/:id angeschaut werden.

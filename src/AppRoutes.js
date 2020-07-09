@@ -5,6 +5,7 @@ import Register from "./Register";
 import NotImplementedYet from "./NotImplementedYet";
 import searchCustomers from "./searchCustomers";
 import Customer from "./Customer";
+import Newsletter from "./Newsletter";
 
 class AppRoutes extends Component{
 
@@ -18,6 +19,7 @@ class AppRoutes extends Component{
             <Route path="/registration" exact component={Register}/>
             <Route path="/notImplementedYet" exact component={NotImplementedYet}/>
             <Route path="/impressum" exact component={NotImplementedYet}/>
+            <Route path="/newsletter" exact component={Newsletter}/>
         </BrowserRouter>
     );
   }

@@ -16,7 +16,6 @@ class Customer extends Component {
     }
 
     setCustomer = (customer) => {
-        this.setState({customer: customer});
         if (customer === undefined) {
             this.setState({customer: undefined});
         } else {

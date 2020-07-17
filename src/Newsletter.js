@@ -5,12 +5,11 @@ class Newsletter extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            allNewsletters: ["Latest Newletter"]
+            allNewsletters: ["Latest Newsletter"]
         }
     }
 
     addNewsletter = () =>{
-        debugger;
         let allNewsletters = [...this.state.allNewsletters];
         allNewsletters.push("Newsletter from " + this.state.allNewsletters.length + " ago.")
         this.setState({allNewsletters: allNewsletters});
